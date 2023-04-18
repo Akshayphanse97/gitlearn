@@ -1,0 +1,13 @@
+f = open('file.txt')
+print(f.read())
+print(f.tell())
+f.seek(0)
+print(f.readline())
+print(f.name)
+print(f.closed)
+f.close()
+print(f.closed)
+
+d = open(r"E:\python_tutorial\new_file.txt")
+# print(d.read())
+print(d.readlines())
